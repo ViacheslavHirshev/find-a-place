@@ -12,9 +12,5 @@ form.addEventListener("submit", (event) =>
     map.showLocation(location);
 });
 
-
 const myGeoposBtn = document.querySelector("#my-geopos-btn")! as HTMLButtonElement;
-myGeoposBtn.addEventListener("click", () =>
-{
-    map.showMyLocation();
-});
+myGeoposBtn.addEventListener("click", map.showMyLocation);
