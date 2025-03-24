@@ -41,7 +41,7 @@ export class MyMap
     private changeCoordinates(coordinates: Coordinate): void
     {
         this.map.getView().setCenter(fromLonLat(coordinates));
-        this.map.getView().setZoom(6);
+        this.map.getView().setZoom(4);
         this.addMarker(coordinates)
     }
 
