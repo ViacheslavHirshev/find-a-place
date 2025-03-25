@@ -7,5 +7,5 @@
 
 ## How to run:
 1. Copy repository
-2. Type npm start in terminal
+2. Type "npm install" in terminal
 3. "npm run dev" for debugging, "npm run build" for building via vite
